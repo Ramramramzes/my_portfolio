@@ -518,7 +518,7 @@ a {
 .product-left-card {
     width: 600px;
     height: 600px;
-    margin-left: 15%;
+    margin-left: 45%;
     background-color: rgba(1, 153, 109, 0.2);
     position: relative;
     border-radius: 18px;
@@ -548,7 +548,7 @@ a {
 
 .product-left__mini .mini-name .mini-name__content {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     border-bottom: 1px solid #000;
     padding-bottom: 3%;
 }
@@ -589,41 +589,172 @@ a {
 }
 
 .product-right {
-    margin-top: 20%;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 25%;
 }
 
 .product-right__name {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 25px;
     color: #424242;
     display: block;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .product-right__title {
     font-family: 'Georgia', sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 1.3em;
+    font-size: 50px;
+    line-height: 1.6em;
     color: #01996D;
     padding-bottom: 5%;
 }
 
 .product-right__content {
-    font-size: 16px;
-    line-height: 1.5em;
+    font-size: 20px;
+    line-height: 1.7em;
     color: #484848;
 }
 
-.product-right__btn{
-    margin-top: 10%;
+.product-right__btn {
+    margin-top: 15%;
 }
 
 .product-right__btn-link {
-    padding: 15px 40px;
-    font-size: 14px;
+    padding: 20px 50px;
+    font-size: 20px;
     color: #FFFFFF;
     background-color: #01996D;
     border-radius: 4px;
+}
+
+@media(max-width:1280px) {
+    .product {
+        font-family: 'Lato', sans-serif;
+        background-color: #fafafa;
+        display: flex;
+    }
+
+    .product-left {
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+    }
+
+    .product-left-card {
+        width: 400px;
+        height: 400px;
+        margin-left: 40%;
+        background-color: rgba(1, 153, 109, 0.2);
+        position: relative;
+        border-radius: 18px;
+    }
+
+    .product-left img {
+        position: absolute;
+        top: 26px;
+        left: 10%;
+    }
+
+    .product-left-card__img {
+        width: 70%;
+    }
+
+    .product-left__mini {
+        width: 50%;
+        background-color: #fff;
+        position: absolute;
+        bottom: -90px;
+        left: -100px;
+        border-radius: 10px;
+    }
+
+    .product-left__mini .mini-name {
+        text-align: center;
+        display: block;
+        padding-top: 15%;
+        margin-bottom: 50%;
+    }
+
+    .product-left__mini .mini-name .mini-name__content {
+        font-weight: 600;
+        font-size: 14px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 3%;
+    }
+
+    .product-left__mini .mini-img {
+        justify-content: center;
+        position: absolute;
+        top: 65px;
+        left: 71px;
+    }
+
+    .product-left__mini .mini-img-name {
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10%;
+    }
+
+    .product-left__mini .mini-title {
+        font-family: 'Georgia', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .product-left__mini .mini-list {
+        margin-left: 24%;
+        font-size: 10px;
+        list-style-type: disc;
+    }
+
+    .product-left__mini .mini-list .mini-list__item:first-child {
+        margin-bottom: 5%;
+    }
+
+    .product-left__mini .mini-list .mini-list__item:last-child {
+        padding-bottom: 15%;
+    }
+
+    .product-right {
+        margin-top: 12%;
+        margin-left: 23%;
+    }
+
+    .product-right__name {
+        font-weight: 600;
+        font-size: 16px;
+        color: #424242;
+        display: block;
+        padding-bottom: 5%;
+    }
+
+    .product-right__title {
+        font-family: 'Georgia', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.6em;
+        color: #01996D;
+        padding-bottom: 7%;
+    }
+
+    .product-right__content {
+        font-size: 16px;
+        line-height: 1.7em;
+        color: #484848;
+    }
+
+    .product-right__btn {
+        margin-top: 15%;
+    }
+
+    .product-right__btn-link {
+        padding: 15px 40px;
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color: #01996D;
+        border-radius: 4px;
+    }
 }
