@@ -189,6 +189,7 @@ a {
 
 .hero__btn {
     margin-left: 35%;
+    margin-top: 0.5%;
 }
 
 .hero__btn-link {
@@ -245,4 +246,25 @@ a {
 
 .countdown-number:not(:last-child) {
     margin-right: 5%;
+}
+
+@media(max-width:1280px) {
+    .hero {
+        font-size: 14px;
+    }
+    .hero__logo{
+        margin-right: 10%;
+    }
+    .hero__list-item:not(:last-child) {
+        margin-right: 15%;
+    }
+    .hero__btn {
+        margin-left: 35%;
+        padding-top: .5%;
+    }
+    .hero__title {
+        font-size: 54px;
+        line-height: 140%;
+        margin-bottom: 5%;
+    }
 }
