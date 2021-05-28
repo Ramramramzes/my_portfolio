@@ -103,6 +103,7 @@ section {
 }
 
 body {
+    /* background-color: #000; */
     line-height: 1;
     overflow-x: hidden;
 }
@@ -262,6 +263,7 @@ a {
         background-image: url(./img/main.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        padding: 3% 5% 3% 10%;
     }
 
     .hero__logo {
@@ -273,7 +275,7 @@ a {
     }
 
     .hero__btn {
-        margin-left: 35%;
+        margin-left: 33%;
         padding-top: .5%;
     }
 
@@ -362,5 +364,28 @@ a {
 
     100% {
         background-position: 0
+    }
+}
+/* -------- */
+@media(max-width:1280px){
+    .progress__btn{
+        padding: 0;
+        padding-left: 11%;
+        padding-right: 6%;
+
+    }
+
+
+
+
+
+
+    .progress__bar-block {
+        width: 100%;
+        width: 550px;
+        height: 6px;
+        background: #fff;
+        border-radius: 3px;
+        overflow: hidden;
     }
 }
