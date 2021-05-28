@@ -155,6 +155,10 @@ a {
     src: url(./fonts/Roboto-Bold.ttf);
 }
 
+.container {
+    width: 1920px;
+}
+
 /* HERO */
 .hero {
     font-family: 'Roboto-regular', sans-serif;
@@ -163,7 +167,7 @@ a {
     background-image: url(./img/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 3% 5%;
+    padding: 3% 5% 3% 15%;
 }
 
 .hero__logo {
@@ -249,22 +253,114 @@ a {
 }
 
 @media(max-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+
     .hero {
         font-size: 14px;
+        background-image: url(./img/main.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .hero__logo{
+
+    .hero__logo {
         margin-right: 10%;
     }
+
     .hero__list-item:not(:last-child) {
         margin-right: 15%;
     }
+
     .hero__btn {
         margin-left: 35%;
         padding-top: .5%;
     }
+
     .hero__title {
         font-size: 54px;
         line-height: 140%;
         margin-bottom: 5%;
+    }
+}
+
+/* PROGRESS */
+
+.progress {
+    font-family: 'Roboto-regular';
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    background-color: #121212;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.progress__btn{
+    padding-right: 5%;
+    padding-left: 16%;
+}
+.progress__btn-link {
+    padding: 10px 30px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+}
+
+.progress__items {
+    display: flex;
+    margin-right: 5%;
+}
+.progress__name{
+    width: 210px;
+    opacity: .4;
+}
+.progress__name-list {
+    padding-right: 5%;
+}
+
+.progress__bar-name{
+    display: flex;
+    padding-bottom: 1%;
+}
+.progress__bar-name-title{
+    opacity: .4;
+    padding-right: 10%;
+}
+
+.progress__name-list-item:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+.progress__number-list-item:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+/* PROGRESS_BAR */
+
+.progress__bar-block {
+    width: 100%;
+    width: 800px;
+    height: 6px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    display: block;
+    height: 100%;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    background-size: 300% 100%;
+    animation: progress-animation 1s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes progress-animation {
+    0% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0
     }
 }
