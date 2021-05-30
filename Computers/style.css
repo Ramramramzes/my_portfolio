@@ -106,6 +106,8 @@ body {
     /* background-color: #000; */
     line-height: 1;
     overflow-x: hidden;
+    background-color: #000;
+    color: #fff;
 }
 
 ol,
@@ -157,14 +159,13 @@ a {
 }
 
 .container {
-    width: 1920px;
+    max-width: 1920px;
 }
 
 /* HERO */
 .hero {
     font-family: 'Roboto-regular', sans-serif;
     font-size: 16px;
-    color: #fff;
     background-image: url(./img/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -218,7 +219,6 @@ a {
 
 .countdown {
     font-family: 'Roboto-bold', sans-serif;
-    color: #fff;
     display: inline-block;
     font-weight: 600;
     text-align: center;
@@ -289,19 +289,21 @@ a {
 /* PROGRESS */
 
 .progress {
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     width: 100%;
     display: flex;
     font-size: 16px;
-    color: #fff;
     background-color: #121212;
     padding-top: 2%;
     padding-bottom: 1%;
 }
-.progress__btn{
+
+.progress__btn {
     padding-right: 5%;
     padding-left: 16%;
+    margin-top: 0.5%;
 }
+
 .progress__btn-link {
     padding: 10px 30px;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
@@ -312,19 +314,22 @@ a {
     display: flex;
     margin-right: 5%;
 }
-.progress__name{
+
+.progress__name {
     width: 210px;
     opacity: .4;
 }
+
 .progress__name-list {
     padding-right: 5%;
 }
 
-.progress__bar-name{
+.progress__bar-name {
     display: flex;
     padding-bottom: 1%;
 }
-.progress__bar-name-title{
+
+.progress__bar-name-title {
     opacity: .4;
     padding-right: 10%;
 }
@@ -366,19 +371,14 @@ a {
         background-position: 0
     }
 }
+
 /* -------- */
-@media(max-width:1280px){
-    .progress__btn{
+@media(max-width:1280px) {
+    .progress__btn {
         padding: 0;
         padding-left: 11%;
         padding-right: 6%;
-
     }
-
-
-
-
-
 
     .progress__bar-block {
         width: 100%;
@@ -388,4 +388,121 @@ a {
         border-radius: 3px;
         overflow: hidden;
     }
+}
+
+/* WHAT */
+.what {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.what__img {
+    margin-left: 16%;
+    margin-right: 5%;
+}
+
+.what__content {
+    margin-top: 5%;
+}
+
+.what__content-title {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 48px;
+    padding-bottom: 3%;
+}
+
+.what__content-text {
+    font-family: 'Roboto-regular', sans-serif;
+    width: 65%;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+@media(max-width:1280px) {
+    .what__img {
+        margin-left: 11%;
+        margin-right: 10%;
+    }
+
+    .what__img img {
+        width: 350px;
+    }
+
+    .what__content {
+        margin-top: 5%;
+    }
+
+    .what__content-title {
+        font-size: 36px;
+        padding-bottom: 3%;
+    }
+
+    .what__content-text {
+        font-family: 'Roboto-regular', sans-serif;
+        width: 75%;
+        font-size: 14px;
+        line-height: 150%;
+    }
+}
+
+/* FAST */
+.fast{
+    margin-left: 15%;
+    padding-bottom: 5%;
+}
+.fast__title {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.fast__title-main {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 48px;
+    padding-top: 1.7%;
+}
+
+.fast__text {
+    font-family: 'Roboto-regular', sans-serif;
+    opacity: 0.5;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+.fast__procent-item-number {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 36px;
+}
+
+.fast__procent-item-text {
+    font-family: 'Roboto-regular', sans-serif;
+    font-size: 14px;
+    opacity: .5;
+}
+
+.fast__procent-list {
+    display: flex;
+}
+
+.fast__procent-item-number,
+.fast__procent-item-text {
+    display: block;
+}
+
+.fast__procent-item{
+    width: 20.1%;
+}
+.fast__procent-item-text{
+    width: 75%;
+}
+
+.fast__procent-item-number {
+    padding-bottom: 150px;
+}
+
+.fast__procent-list {
+    background-image: url(./img/progress.png);
+    background-repeat: no-repeat;
+    background-position-y: 40px;
 }
