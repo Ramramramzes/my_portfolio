@@ -141,19 +141,19 @@ a {
 /* ------------------ */
 /* FONTS */
 @font-face {
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     /* 400 */
     src: url(./fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Roboto-medium';
+    font-family: 'Roboto-medium', sans-serif;
     /* 500 */
     src: url(./fonts/Roboto-Medium.ttf);
 }
 
 @font-face {
-    font-family: 'Roboto-bold';
+    font-family: 'Roboto-bold', sans-serif;
     /* 600 */
     src: url(./fonts/Roboto-Bold.ttf);
 }
@@ -449,7 +449,7 @@ a {
 /* FAST */
 .fast {
     margin-left: 15%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .fast__title {
@@ -544,5 +544,78 @@ a {
 
     .fast__procent-list {
         background-size: 90%;
+    }
+}
+
+/* FAST */
+.prof {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.prof__card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prof__title {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 48px;
+    padding-bottom: 5%;
+}
+
+.prof__card-left,
+.prof__card-middle,
+.prof__card-right {
+    width: 17%;
+}
+
+.prof__card-left-title,
+.prof__card-middle-title,
+.prof__card-right-title {
+    font-family: 'Roboto-medium', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    padding-bottom: 3%;
+}
+
+.prof__card-left-text,
+.prof__card-middle-text,
+.prof__card-right-text {
+    font-family: 'Roboto-regular', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.prof__card-left-img,
+.prof__card-middle-img,
+.prof__card-right-img {
+    padding-bottom: 10%;
+}
+
+@media(max-width:1280px) {
+    .prof__title {
+        font-size: 34px;
+    }
+
+    .prof__card-left,
+    .prof__card-middle,
+    .prof__card-right {
+        width: 19%;
+    }
+
+    .prof__card-left-title,
+    .prof__card-middle-title,
+    .prof__card-right-title {
+        font-size: 18px;
+        line-height: 140%;
+        padding-bottom: 7%;
+    }
+
+    .prof__card-left-text,
+    .prof__card-middle-text,
+    .prof__card-right-text {
+        font-size: 13px;
+        line-height: 130%;
     }
 }
