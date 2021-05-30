@@ -447,10 +447,11 @@ a {
 }
 
 /* FAST */
-.fast{
+.fast {
     margin-left: 15%;
     padding-bottom: 5%;
 }
+
 .fast__title {
     display: flex;
     margin-bottom: 2%;
@@ -479,6 +480,7 @@ a {
     font-family: 'Roboto-regular', sans-serif;
     font-size: 14px;
     opacity: .5;
+    line-height: 160%
 }
 
 .fast__procent-list {
@@ -490,10 +492,11 @@ a {
     display: block;
 }
 
-.fast__procent-item{
+.fast__procent-item {
     width: 20.1%;
 }
-.fast__procent-item-text{
+
+.fast__procent-item-text {
     width: 75%;
 }
 
@@ -505,4 +508,41 @@ a {
     background-image: url(./img/progress.png);
     background-repeat: no-repeat;
     background-position-y: 40px;
+}
+
+@media(max-width:1280px) {
+    .fast {
+        margin-left: 11%;
+        margin-right: 10%;
+    }
+
+    .fast__text {
+        font-size: 14px;
+    }
+
+    .fast__procent-item {
+        width: 24%;
+    }
+
+    .fast__procent-item-text {
+        font-size: 11px;
+        line-height: 140%
+    }
+
+    .fast__procent-item-number {
+        padding-bottom: 100px;
+    }
+
+    .fast__title-img img {
+        width: 85%;
+    }
+
+    .fast__title-main {
+        font-size: 36px;
+        padding-top: 2.7%;
+    }
+
+    .fast__procent-list {
+        background-size: 90%;
+    }
 }
