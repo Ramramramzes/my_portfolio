@@ -686,3 +686,87 @@ a {
         width: 10%;
     }
 }
+
+.programm {
+    font-family: 'Roboto-regular', sans-serif;
+    padding-bottom: 10%;
+}
+
+.programm__title-img {
+    margin-bottom: 3%;
+}
+
+.programm__title {
+    text-align: center;
+}
+
+.programm__title-text {
+    font-family: 'Roboto-bold', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 3%;
+}
+
+.programm__title-content {
+    font-size: 16px;
+    line-height: 160%;
+    opacity: .5;
+    padding-bottom: 5%;
+}
+
+.programm__week {
+    text-align: center;
+    background-image: url(./img/timeline.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.programm__list-item-left {
+    width: 49.9%;
+    text-align: right;
+    background-image: url(./img/line.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+.programm__list-item-title {
+    padding-bottom: 7px;
+}
+
+.programm__list-item-left .programm__list-item-title {
+    padding-right: 50px;
+}
+
+.programm__list-item-left .programm__list-item-text {
+    padding-right: 50px;
+}
+
+.programm__list-item-title {
+    font-size: 14px;
+    opacity: .5;
+}
+
+.programm__list-item-text {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.programm__list-item-right {
+    width: 25%;
+    margin-left: 50.15%;
+    text-align: left;
+    background-image: url(./img/line.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+}
+
+.programm__list-item-right .programm__list-item-title {
+    padding-left: 50px;
+}
+
+.programm__list-item-right .programm__list-item-text {
+    padding-left: 50px;
+}
