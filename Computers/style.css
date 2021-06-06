@@ -770,3 +770,65 @@ a {
 .programm__list-item-right .programm__list-item-text {
     padding-left: 50px;
 }
+
+/* TEACHER */
+.teacher {
+    font-family: 'Roboto-regular', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 15%;
+}
+
+.teacher__title {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.teacher__title-text {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.teacher__card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teacher__card-left,
+.teacher__card-middle,
+.teacher__card-right {
+    text-align: center;
+}
+
+.teacher__card-left-img,
+.teacher__card-middle-img,
+.teacher__card-right-img {
+    padding-bottom: 10%;
+}
+
+.teacher__card-left-title,
+.teacher__card-middle-title,
+.teacher__card-right-title {
+    font-family: 'Roboto-medium', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 5%;
+}
+
+.teacher__card-left-text,
+.teacher__card-middle-text,
+.teacher__card-right-text {
+    font-size: 16px;
+    opacity: .8;
+    padding-bottom: 10%;
+}
+
+.teacher__card-left-btn,
+.teacher__card-middle-btn,
+.teacher__card-right-btn {
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 10px 35px;
+    border-radius: 35px;
+}
