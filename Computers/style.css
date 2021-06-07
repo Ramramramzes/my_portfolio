@@ -848,3 +848,60 @@ a {
         font-size: 36px;
     }
 }
+
+/* SOTIAL */
+.sotial {
+    font-family: 'Roboto-bold', sans-serif;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.sotial__title {
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 1%;
+}
+
+.sotial__text {
+    font-family: 'Roboto-regular', sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: .5;
+    padding-bottom: 1%;
+}
+
+.sotial__form {
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.sotial__form-input {
+    width: 350px;
+    border: none;
+    /* background: transparent; */
+    padding: 15px 0 15px 30px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.sotial__form-btn {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    padding: 16px 25px 16px 25px;
+    position: absolute;
+    left: 55%;
+    top: -1px;
+}
+.sotial__aside:not(:last-child){
+    margin-right: 1%;
+}
+.sotial__aside-vk-img,
+.sotial__aside-yt-img,
+.sotial__aside-face-img,
+.sotial__aside-inst-img {
+    padding: 10px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50%;
+
+}
