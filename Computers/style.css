@@ -878,7 +878,6 @@ a {
 .sotial__form-input {
     width: 350px;
     border: none;
-    /* background: transparent; */
     padding: 15px 0 15px 30px;
     border-radius: 50px 0px 0px 50px;
 }
@@ -893,9 +892,11 @@ a {
     left: 55%;
     top: -1px;
 }
-.sotial__aside:not(:last-child){
+
+.sotial__aside:not(:last-child) {
     margin-right: 1%;
 }
+
 .sotial__aside-vk-img,
 .sotial__aside-yt-img,
 .sotial__aside-face-img,
@@ -903,5 +904,20 @@ a {
     padding: 10px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     border-radius: 50%;
+}
 
+@media(max-width:1280px) {
+    .sotial__title {
+        font-size: 36px;
+        padding-bottom: 2%;
+    }
+
+    .sotial__text {
+        font-size: 14px;
+        padding-bottom: 2%;
+    }
+
+    .sotial__form-btn {
+        left: 56%;
+    }
 }
