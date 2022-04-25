@@ -1,0 +1,79 @@
+@media (max-width: 1920px) {
+	body{
+		max-width: 1920px;
+	}
+	/*!----- Меню -----*/
+	.menu-tablet{
+		display: none;
+	}
+	.menu{
+		background-color: #000;
+		font-size: 18px;
+		color: #fff;
+		display: flex;
+		padding: 30px 159px;
+	}
+	.menu-logo{
+		margin-right: 179px;
+	}
+	.menu-nav{
+		display: flex;
+		align-items: center;
+		
+	}
+	.menu-nav-list{
+		display: flex;
+	}
+	.menu-nav-item:not(:last-child){
+		margin-right: 62px;
+	}
+	.menu-nav-item:nth-last-child(-n+2){
+		margin-right: 0;
+	}
+	.menu-nav-item:last-child{
+		margin-left: 441px;
+	}
+	.menu-nav-sign::before{
+		padding-right: 7px;
+		content: url('/Blanchard/img/sign.svg');
+	}
+	/*!----- ДОП Меню -----*/
+	.downmenu{
+		color: #fff;
+		font-weight: 400;
+		font-size: 18px;
+	}
+	.downmenu-list{
+		display: flex;
+		padding: 23px 158px 28px 159px !important;
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+	.downmenu-item::after{
+		content: url('/Blanchard/img/downmenu_arr.svg');
+	}
+	.downmenu-item:not(:first-child,:last-child){
+		margin-left: 96px;
+	}
+	.downmenu-item:last-child{
+		margin-left: 360px;
+	}
+	.downmenu-item-last{
+		background-image: url('/Blanchard/img/search.svg');
+		background-repeat: no-repeat;
+		background-size: 25px;
+		background-position-y: center;
+		padding-left: 30px;
+		margin-left: 310px;
+	}
+	.downmenu-item-input{
+		border: none;
+		background-color: rgba(0, 0, 0, 0);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+		padding-right: 20px;
+
+	}
+	.downmenu-item-input::placeholder{
+		color: rgba(255, 255, 255, 0.85);
+		font-size: 18px;
+	}
+}

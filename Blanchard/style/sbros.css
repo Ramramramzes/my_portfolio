@@ -1,11 +1,11 @@
 /** Переменные  */
 @font-face {
   font-family: "OpenSansNorm";
-  src: url("./fonts/OpenSans-Regular.ttf");
+  src: url("/Blanchard/fonts/OpenSans-Regular.ttf");
 }
 @font-face {
   font-family: "OpenSansSemiBold";
-  src: url("./fonts/OpenSans-SemiBold.ttf");
+  src: url("/Blanchard/fonts/OpenSans-SemiBold.ttf");
 }
 body {
   font-family: "OpenSansNorm";
