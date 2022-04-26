@@ -3,5 +3,21 @@
 	.menu-tablet-nav{
 		width: 50%;
 	}
+	.downmenu{
+		display: none;
+	}
     
+
+/*!------- HERO -------*/
+	.hero{
+		background-image: url('/Blanchard/img/hero_768.jpg');
+		font-size: 18px;
+		padding: 0 50px;
+	}
+	.hero-title{
+		width: 85%;
+	}
+	.hero-text{
+		width: 100%;
+	}
 }

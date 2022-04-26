@@ -39,13 +39,16 @@
 	}
 	/*!----- ДОП Меню -----*/
 	.downmenu{
+		width: 100%;
 		color: #fff;
+		position: absolute;
 		font-weight: 400;
 		font-size: 18px;
 	}
 	.downmenu-list{
 		display: flex;
-		padding: 23px 158px 28px 159px !important;
+		width: 100%;
+		padding: 23px 158px 25px 159px !important;
 		background-color: rgba(0, 0, 0, 0.4);
 	}
 	.downmenu-item::after{
@@ -75,5 +78,35 @@
 	.downmenu-item-input::placeholder{
 		color: rgba(255, 255, 255, 0.85);
 		font-size: 18px;
+	}
+	/*!------- HERO -------*/
+	.hero{
+		font-family: 'OpenSansBold';
+		color: #fff;
+		background-image: url('/Blanchard/img/hero_1920.jpg');
+		background-position-y: -90px;
+		padding: 0 159px;
+	}
+
+	.hero-title{
+		width: 36%;
+		padding-top: 150px;
+		margin-bottom: 20px;
+		font-size: 72px;
+		line-height: 85px !important;
+	}
+	.hero-text{
+		width: 35%;
+		margin-bottom: 92px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.hero-link{
+		padding: 25px 45px;
+		border: none;
+		border-radius: 100px;
+		color: #fff;
+		background-color: #9D5CD0;
+		margin-bottom: 115px;
 	}
 }

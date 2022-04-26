@@ -62,4 +62,24 @@
 		border: 2px solid #9D5CD0;
 		border-radius: 100px;
 	}
+	.downmenu{
+		display: none;
+	}
+/*!------- HERO -------*/
+	.hero{
+		background-image: url('/Blanchard/img/hero_1024.jpg');
+		font-size: 18px;
+		padding: 0 50px;
+	}
+
+	.hero-title{
+		width: 65%;
+		font-size: 72px;
+	}
+	.hero-text{
+		width: 80%;
+	}
+	.hero-link{
+		margin-bottom: 100px;
+	}
 }

@@ -33,4 +33,42 @@
 		width: 18px;
 		height: 18px;
 	}
+	.downmenu{
+		display: none;
+	}
+/*!------- HERO -------*/
+	.hero{
+		background-image: url('/Blanchard/img/hero_320.jpg');
+		background-position-y: center;
+		font-size: 18px;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.hero-title{
+		width: 100%;
+		padding: 0;
+		padding-top: 30px;
+		text-align: center;
+		align-items: center;
+		font-size: 32px;
+		line-height: 44px !important;
+	}
+	.hero-text{
+		font-family: "OpenSansNorm";
+		text-align: center;
+		font-size: 12px;
+		line-height: 16px;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.hero-link-block{
+		text-align: center;
+	}
+	.hero-link{
+		padding: 11px 16px;
+		font-size: 12px;
+		margin: 0;
+		margin-bottom: 45px;
+	}
 }

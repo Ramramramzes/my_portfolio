@@ -7,6 +7,10 @@
   font-family: "OpenSansSemiBold";
   src: url("/Blanchard/fonts/OpenSans-SemiBold.ttf");
 }
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("/Blanchard/fonts/OpenSans-Bold.ttf");
+  }
 body {
   font-family: "OpenSansNorm";
   color: #333333;
@@ -28,11 +32,6 @@ body {
   color: #333333;
 }
 /** Переменные  */
-
-
-
-
-
 
 /* Указываем box sizing */
 *,
