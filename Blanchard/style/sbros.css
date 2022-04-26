@@ -16,21 +16,8 @@ body {
   font-size: 16px;
   color: #333333;
 }
-.title {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 65px;
-  color: #333333;
-}
-
-.standart-text {
-  font-family: "OpenSansNorm";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  color: #333333;
+label{
+    margin: 0;
 }
 /** Переменные  */
 

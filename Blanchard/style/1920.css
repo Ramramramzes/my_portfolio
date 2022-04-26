@@ -121,4 +121,48 @@
 		width: 68%;
 		line-height: 2em;
 	}
+/*!------- Gallery -------*/
+
+
+/*! Checkbox */
+	.gallery-left-1chbx,
+	.gallery-left-2chbx,
+	.gallery-left-3chbx{
+		display: flex;
+		align-items: center;
+	}
+	.gallery-custom {
+		position: relative;
+		width: 12px;
+		height: 12px;
+		border: 1px solid #fff;
+		margin-right: 8px;
+	}
+	.activ-border{
+		border: 1px solid #C283F3;
+	}
+	.gallery-custom::before {
+		content: "";
+		position: absolute;
+		display: none;
+		width: 4px;
+		height: 4px;
+		background-color: #C283F3;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 100px;
+	}
+	.gallery-left-1chbx input:checked ~ .gallery-custom::before {
+		display: block;
+	}
+	.gallery-left-2chbx input:checked ~ .gallery-custom::before {
+		display: block;
+	}
+	.gallery-left-3chbx input:checked ~ .gallery-custom::before {
+		display: block;
+	}
+	.gallery-checkbox{
+		display: none;
+	}
 }
