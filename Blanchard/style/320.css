@@ -71,4 +71,18 @@
 		margin: 0;
 		margin-bottom: 45px;
 	}
+/*!------- ABOUT -------*/
+	.about{
+		padding: 50px 15px;
+	}
+	.about-title{
+		font-size: 28px;
+		margin-bottom: 12px;
+		line-height: 38px;
+	}
+	.about-text{
+		width: 90%;
+		font-size: 12px;
+		line-height: 2em;
+	}
 }

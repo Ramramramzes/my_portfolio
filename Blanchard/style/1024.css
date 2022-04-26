@@ -82,4 +82,11 @@
 	.hero-link{
 		margin-bottom: 100px;
 	}
+/*!------- ABOUT -------*/
+	.about{
+		padding: 80px 50px;
+	}
+	.about-text{
+		width: 100%;
+	}
 }

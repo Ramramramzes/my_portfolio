@@ -109,4 +109,16 @@
 		background-color: #9D5CD0;
 		margin-bottom: 115px;
 	}
+/*!------- ABOUT -------*/
+	.about{
+		padding: 80px 160px;
+	}
+	.about-title{
+		font-size: 48px;
+		margin-bottom: 16px;
+	}
+	.about-text{
+		width: 68%;
+		line-height: 2em;
+	}
 }
