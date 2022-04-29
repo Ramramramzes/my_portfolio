@@ -245,9 +245,9 @@
 	}
 	
 	.gallery-slider1024,
-	.gallery-slider1024-number{
+	.gallery-slider1024-number,
+	.gallery-slider320,
+	.gallery-slider320-number{
 		display: none;
 	}
-
-
 }

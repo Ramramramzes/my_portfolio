@@ -22,4 +22,23 @@
 	}
 /*!------- ABOUT -------*/
 /** no */
+/*!------ GALLERY ------*/
+	.gallery-items{
+		display: block;
+	}
+	.gallery{
+		background-image: url(/Blanchard/img/gallery_768.jpg);
+	}
+	.gallery-left-select{
+		margin-bottom: 45px;
+	}
+	.gallery-left-chblock{
+		margin-bottom: 100px;
+	}
+	.gallery-slider1024{
+		width: 668px !important;
+	}
+	.gallery-slider1024-img{
+		width: 315px !important;
+	}
 }

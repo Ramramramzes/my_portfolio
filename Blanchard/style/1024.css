@@ -92,6 +92,7 @@
 /*!------- GALLERY -------*/
 	.gallery{
 		padding: 80px 50px;
+		background-image: url(/Blanchard/img/gallery_1024.jpg);
 	}
 	.gallery-left-select{
 		padding-right: 185px;
@@ -120,7 +121,9 @@
 		display: block;
 	}
 	.gallery-slider,
-	.gallery-slider-number{
+	.gallery-slider-number,
+	.gallery-slider320,
+	.gallery-slider320-number{
 		display: none;
 	}
 }
