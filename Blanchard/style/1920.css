@@ -243,4 +243,11 @@
 	.gallery-checkbox{
 		display: none;
 	}
+	
+	.gallery-slider1024,
+	.gallery-slider1024-number{
+		display: none;
+	}
+
+
 }

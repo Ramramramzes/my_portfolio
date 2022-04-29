@@ -166,6 +166,21 @@
           </div>
         </div>
         <span class="gallery-slider-number" id="slide_number">1 / 2</span>
+        <div class="gallery-slider1024 slider single-item">
+          <div class="gallery-slider1024-block">
+            <img class="gallery-slider1024-img" style="width: 280px;" src="/Blanchard/img/slide_1.jpg" alt="">
+            <img class="gallery-slider1024-img" style="width: 280px;" src="/Blanchard/img/slide_2.jpg" alt="">
+          </div>
+          <div class="gallery-slider1024-block">
+            <img class="gallery-slider1024-img" style="width: 280px;" src="/Blanchard/img/slide_3.jpg" alt="">
+            <img class="gallery-slider1024-img" style="width: 280px;" src="/Blanchard/img/slide_4.jpg" alt="">
+          </div>
+          <div class="gallery-slider1024-block">
+            <img class="gallery-slider1024-img" style="width: 280px;" src="/Blanchard/img/slide_5.jpg" alt="">
+            <img class="gallery-slider1024-img" style="width: 280px;" src="/Blanchard/img/slide_6.jpg" alt="">
+          </div>
+        </div>
+        <span class="gallery-slider1024-number" id="slide1024_number">1 / 3</span>
       </div>
     </div>
   </div>
@@ -176,7 +191,8 @@
   
 
   <script>
-      $('.slider').slick({
+
+      $('.gallery-slider').slick({
           infinity:true,
           arrows:true,
           dots:false,
@@ -184,10 +200,22 @@
           slidesToScroll: 1,
           autoplay:false,
           });
-
-          $(".slider").on('afterChange', function(event, slick, currentSlide){
+          $(".gallery-slider").on('afterChange', function(event, slick, currentSlide){
             $("#slide_number").text(currentSlide + 1 +" / 2");
           });
+          
+      $('.gallery-slider1024').slick({
+          infinity:true,
+          arrows:true,
+          dots:false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay:false,
+          });
+          $(".gallery-slider1024").on('afterChange', function(event, slick, currentSlide){
+            $("#slide1024_number").text(currentSlide + 1 +" / 3");
+          });
+          
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
