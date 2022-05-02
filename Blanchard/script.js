@@ -82,3 +82,6 @@ document.getElementById('burger').addEventListener('click',function(){
         })
 //!--------------------------------------------------/
 //! Слайдер------------------------------------------/
+$( function() {
+    $( "#accordion" ).accordion();
+  } );
