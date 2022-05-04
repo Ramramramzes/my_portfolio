@@ -342,4 +342,13 @@
 		border: 2px solid #9D5CD0;
 		background-color: #D1A9F0;
 	}
+	.accordion-button{
+		border-bottom: 1px solid #7943A4;
+	}
+	.collapsed{
+		border-bottom: none;
+	}
+	#headingSeven{
+		border-bottom: none;
+	}
 }
