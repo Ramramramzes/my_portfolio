@@ -126,4 +126,33 @@
 	.gallery-slider320-number{
 		display: none;
 	}
+/*!----- CATALOG -----*/
+	.accordion1024-body-list{
+		display: block;
+	}
+	.accordion-body-list{
+		display: none;
+	}
+	.catalog{
+		padding: 80px 50px;
+	}
+	.catalog-text{
+		width: 100%;
+	}
+	.catalog-left{
+		width: 437px;
+	}
+	.catalog-left-text{
+		width: 437px;
+	}
+	.catalog-right{
+		width: 467px;
+	}
+	.accordion1024-body-list:last-child{
+		margin-left: 40px;
+	}
+	.accordion1024-body-item{
+		font-size: 16px;
+		line-height: 32px;
+	}
 }

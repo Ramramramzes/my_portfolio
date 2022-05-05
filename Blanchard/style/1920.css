@@ -312,6 +312,8 @@
 		border-bottom: 1px solid #7943A4;
 	}
 	.accordion-button{
+		padding-top: 32px;
+		padding-bottom: 32px;
 		box-shadow: none !important;
 		border-bottom: none;
 	}
@@ -350,5 +352,8 @@
 	}
 	#headingSeven{
 		border-bottom: none;
+	}
+	.accordion1024-body-list{
+		display: none;
 	}
 }
