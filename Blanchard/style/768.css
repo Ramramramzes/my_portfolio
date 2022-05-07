@@ -41,4 +41,32 @@
 	.gallery-slider1024-img{
 		width: 315px !important;
 	}
+/*!------ CATALOG ------*/
+	.catalog-sides{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.catalog-right{
+		width: 100%;
+	}
+	.accordion1024-body-list{
+		display: none;
+	}
+	.accordion-body-list{
+		display: block;
+	}
+	.accordion-body-list{
+		margin: 0px !important;
+	}
+	.accordion-body-block{
+		display: flex;
+		justify-content: space-between;
+	}
+	.catalog-left{
+		margin: 0px;
+		width: 100%;
+	}
+	.catalog-left-text{
+		width: 100%;
+	}
 }

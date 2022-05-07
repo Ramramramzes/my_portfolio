@@ -294,9 +294,7 @@
 	}
 	.accordion-body-block{
 		display: flex;
-	}
-	.accordion-body-list:not(:last-child){
-		margin-right: 60px;
+		justify-content: space-between;
 	}
 	.accordion-body-item{
 		font-size: 16px;
