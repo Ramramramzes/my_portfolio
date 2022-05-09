@@ -119,4 +119,25 @@
 	.gallery-slider320-number{
 		display: block;
 	}
+/*!------ CATALOG ------*/
+	.catalog{
+		padding: 50px 15px;
+	}
+	.catalog-title{
+		font-size: 28px;
+	}
+	.catalog-text{
+		display: none;
+	}
+	.accordion-button{
+		padding: 20px 0px;
+	}
+	.accordion-body-block{
+		display: flex;
+		flex-direction: column;
+	}
+	.catalog-left-text{
+		font-size: 12px;
+		line-height: 32px;
+	}
 }
