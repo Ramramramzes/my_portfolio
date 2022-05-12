@@ -155,4 +155,29 @@
 		font-size: 16px;
 		line-height: 32px;
 	}
+/*!----- EVENTS -----*/
+	.events{
+		padding: 80px 50px;
+	}
+	.events-element{
+		width: 296px;
+	}
+	.events-content{
+		position: relative;
+		padding: 14px 34px;
+		height: 490px;
+		text-align: right;
+	}
+	.events-title{
+		margin-top: 4px;
+		margin-bottom: 5px;
+	}
+	.events-title,
+	.events-text{
+		text-align: left;
+	}
+	.events-link{
+		right: auto;
+		left: 34px;
+	}
 }
