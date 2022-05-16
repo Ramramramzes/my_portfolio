@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/script.js"></script>
+    <title>Sunflower-land.calculator</title>
+</head>
+<body>
+    <div class="input_data">
+        <img id="background" src="/img/bcg415.png" alt="">
+        <label for="plant">For begining</label>
+        <select name="plant" id="plant">
+            <option value="0" disabled selected>Choose plant</option>
+            <option value="1">Sunflower</option>
+            <option value="2">Potato</option>
+            <option value="3">Pumpkin</option>
+            <option value="4">Carrot</option>
+            <option value="5">Cabbage</option>
+            <option value="6">Beetroot</option>
+            <option value="7">Cauliflower</option>
+            <option value="8">Parsnip</option>
+            <option value="9">Radish</option>
+            <option value="10">Wheat</option>
+        </select>
+        <label class="label" for="kolvo">Fill in the amount of plants</label>
+        <input id="kolvo" type="number" name="kolvo" placeholder="Fill in the field">
+        <label class="label" for="clumb">Fill in the amount of seedbeds <span id="danger">(max 22)</span></label>
+        <input id="clumb" type="number" name="clumb" placeholder="Fill in the field">
+        <button id="btn">Count</button>
+    </div>
+    <div class="calculated">
+        <div class="time">
+            <span id="day">0 days</span>
+            <span id="hour">0 hours</span>
+            <span id="minute">0 minutes</span>
+        </div>
+        <span id="result">0 MATIC</span>
+    </div>
+
+</body>
+</html>

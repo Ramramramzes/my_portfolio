@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "pixel";
+    src: url(/karma/upheavtt.ttf);
+}
+body{
+    font-family: "pixel", sans-serif;
+    font-size: 30px;
+    background-image: url(/img/bcg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: grayscale(80%)blur(3px);
+    height: 100vh;
+    margin: 0 auto;
+}
+.input_data{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.calculated{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.label{
+    margin-bottom: 5px;
+}
+input[type="number"]{
+    font-family: "pixel", sans-serif;
+}
+#kolvo,
+#clumb{
+    width: 15%;
+    padding: 15px 10px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(194, 134, 105);
+    border: 2px solid #fff;
+    letter-spacing: 3px;
+}
+
+#kolvo::placeholder{
+    font-family: "pixel", sans-serif;
+    opacity: 0.8;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+#clumb::placeholder{
+    font-family: "pixel", sans-serif;
+    opacity: 0.8;
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 18px;
+}
+#kolvo:disabled,
+#clumb:disabled{
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+}
+#kolvo:focus,
+#clumb:focus,
+#btn:hover{
+    background-color: rgb(146, 102, 80);
+}
+#btn:focus{
+    background-color: rgb(146, 102, 80);
+}
+#result{
+    z-index: 3;
+}
+#plant{
+    font-family: "pixel", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    height: 60px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    background-color: rgb(194, 134, 105);
+    cursor: pointer;
+
+    border: 2px solid #fff;
+}
+#plant:hover{
+    background-color: rgb(146, 102, 80);
+}
+#danger{
+    color: rgb(204, 0, 0);
+    text-decoration: underline;
+}
+#btn:disabled{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    cursor: inherit;
+}
+#btn{
+    font-family: "pixel", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(194, 134, 105);
+
+    border: 2px solid #fff;
+    padding: 10px 135px;
+    border-radius: 100px;
+}
+#background{
+    display: none;
+}
+@media(max-width:415px) {
+    label{
+        z-index: 3;
+    }
+    body{
+        background-image: none;
+        height: 100%;
+        z-index: 3;
+    }
+    .input_data{
+        padding-top: 0;
+        z-index: 3;
+    }
+    #background{
+        display: block;
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        filter: grayscale(70%) blur(2px);
+        -webkit-filter: grayscale(70%) blur(2px);
+        -moz-filter: grayscale(70%) blur(2px);
+    }
+    #plant{
+        width: 90%;
+        z-index: 3;
+    }
+    #kolvo{
+        width: 90%;
+        z-index: 3;
+    }
+    #clumb{
+        width: 90%;
+        z-index: 3;
+    }
+    #btn{
+        padding: 15px 80px;
+        z-index: 3;
+    }
+    
+    .time{
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+    }
+    .calculated{
+        display: flex;
+        flex-direction: column-reverse;
+        z-index: 3;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
