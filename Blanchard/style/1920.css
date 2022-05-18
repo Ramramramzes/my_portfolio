@@ -114,7 +114,6 @@
 		padding: 80px 160px;
 	}
 	.about-title{
-		font-size: 48px;
 		margin-bottom: 16px;
 	}
 	.about-text{
@@ -131,8 +130,7 @@
 		color: #fff;
 	}
 	.gallery-title{
-		font-size: 48px;
-		
+		color: #fff;
 	}
 	.gallery-items{
 		display: flex;
@@ -255,7 +253,6 @@
 		padding: 80px 160px;
 	}
 	.catalog-title{
-		font-size: 48px;
 		margin-bottom: 16px;
 	}
 	.catalog-text{
@@ -373,8 +370,7 @@
 		padding: 80px 160px;
 		position: relative;
 	}
-	.events-title{
-		font-size: 48px;
+	.event-title{
 		margin-bottom: 16px;
 	}
 	.events-block{
@@ -426,4 +422,9 @@
 		right: -25px !important;
 		bottom: 325px;
 	}
+	.events-slider768,
+	.events-slider320{
+		display: none;
+	}
+	
 }

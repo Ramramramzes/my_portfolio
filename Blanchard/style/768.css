@@ -69,4 +69,18 @@
 	.catalog-left-text{
 		width: 100%;
 	}
+/*!------ EVENTS ------*/
+	.events-slider{
+		display: none;
+	}
+	.events-slider768{
+		display: block;
+	}
+	.slick-prev::before{
+		display: none;
+	}
+	.events-element{
+		width: 317px;
+	}
+	
 }
