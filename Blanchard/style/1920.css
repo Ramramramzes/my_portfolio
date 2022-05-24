@@ -426,5 +426,64 @@
 	.events-slider320{
 		display: none;
 	}
-	
+/*!------- PROJECTS -------*/
+	.projects{
+		padding: 0px 160px;
+	}
+	.projects-text{
+		width: 67%;
+		margin-bottom: 30px;
+	}
+	.project-info{
+		width: 18px;
+		text-align: center;
+		display: inline-block;
+		background-image: url('/Blanchard/img/round.svg');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.projects-link{
+		color: #9D5CD0;
+		cursor: pointer;
+	}
+	.project-slider{
+		margin-bottom: 80px;
+	}
+	.project-element{
+		display: flex;
+		justify-content: space-around;
+	}
+	.project-subtitle{
+		font-family: "OpenSansSemiBold";
+		font-size: 24px;
+		margin-bottom: 23px;
+	}
+	.project-content{
+		width: 450px;
+		height: 150px;
+		border: 1px solid #CACACA;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+	.project-img{
+		filter: grayscale(100%);
+		opacity: 0.3;
+	}
+
+	#projectLeftBtn{
+		position: absolute;
+		left: 0px;
+		top: 60px;
+		z-index: 2;
+		cursor: pointer;
+	}
+	#projectRightBtn{
+		position: absolute;
+		right: 0px;
+		top: 60px;
+		cursor: pointer;
+	}
 }
