@@ -180,4 +180,42 @@
 		right: auto;
 		left: 34px;
 	}
+/*!----- PROJECTS -----*/
+	.project-slider{
+		display: none;
+	}
+	.project-slider1024{
+		display: block;
+		margin-bottom: 80px;
+	}
+	.projects{
+		padding: 0px 50px;
+	}
+	.projects-text{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.project-element{
+		justify-content: center;
+	}
+	.project-content:nth-child(2n){
+		margin-left: 50px;
+	}
+	.project-content{
+		width: 384px;
+		height: 128px;
+	}
+	#projectLeftBtn{
+		position: absolute;
+		left: 50px;
+		top: 45px;
+		z-index: 2;
+		cursor: pointer;
+	}
+	#projectRightBtn{
+		position: absolute;
+		right: 50px;
+		top: 45px;
+		cursor: pointer;
+	}
 }

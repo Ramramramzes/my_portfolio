@@ -430,6 +430,9 @@
 	.projects{
 		padding: 0px 160px;
 	}
+	.projects-title{
+		margin-bottom: 16px;
+	}
 	.projects-text{
 		width: 67%;
 		margin-bottom: 30px;
@@ -485,5 +488,8 @@
 		right: 0px;
 		top: 60px;
 		cursor: pointer;
+	}
+	.project-slider1024{
+		display: none;
 	}
 }
