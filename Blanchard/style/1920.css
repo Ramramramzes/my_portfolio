@@ -489,7 +489,8 @@
 		top: 60px;
 		cursor: pointer;
 	}
-	.project-slider1024{
+	.project-slider1024,
+	.project-slider320{
 		display: none;
 	}
 }

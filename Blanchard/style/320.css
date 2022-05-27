@@ -168,4 +168,54 @@
 	.events-block{
 		border-bottom: 1px solid rgb(202, 202, 202);
 	}
+/*!----- PROJECTS -----*/
+	.project-slider,
+	.project-slider1024{
+		display: none;
+	}
+	.project-slider320{
+		display: block;
+		margin-bottom: 50px;
+	}
+	.project-subtitle{
+		font-size: 18px;
+	}
+	.projects{
+		padding: 0px 15px;
+	}
+	.projects-title{
+		font-size: 28px;
+		margin-bottom: 12px;
+	}
+	.project-content{
+		width: 195px;
+		height: 65px;
+	}
+	.project-img{
+		width: 100%;
+		padding: 30px;
+	}
+	.project-img4,
+	.project-img5,
+	.project-img8{
+		width: 85%;
+		padding: 40px;
+	}
+	.project-img4{
+		width: 80%;
+	}
+
+	#projectLeftBtn{
+		position: absolute;
+		left: 15px;
+		top: 17px;
+		z-index: 2;
+		cursor: pointer;
+	}
+	#projectRightBtn{
+		position: absolute;
+		right: 15px;
+		top: 17px;
+		cursor: pointer;
+	}
 }

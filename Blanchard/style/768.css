@@ -82,5 +82,13 @@
 	.events-element{
 		width: 317px;
 	}
-	
+/*!----- PROJECTS -----*/
+	.project-img{
+		width: 100%;
+		padding: 25%;
+	}
+	.project-content{
+		width: 264px;
+		height: 106px;
+	}
 }
