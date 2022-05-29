@@ -218,4 +218,20 @@
 		top: 17px;
 		cursor: pointer;
 	}
+/*!------- CONTACTS -------*/
+	.contacts{
+		padding: 50px 15px 20px 15px;
+	}
+	.contacts-btn{
+		display: none;
+	}
+	.contacts-btn320{
+		display: block;
+		padding: 9px 24px;
+		background-color: #fff;
+		border: 2px solid #9D5CD0;
+		border-radius: 100px;
+		color: #9D5CD0;
+		padding: 9px 35px;
+	}
 }

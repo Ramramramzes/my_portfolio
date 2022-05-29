@@ -535,5 +535,8 @@
 	.contacts-img:first-child{
 		margin-right: 21px;
 	}
+	.contacts-btn320{
+		display: none;
+	}
 
 }
