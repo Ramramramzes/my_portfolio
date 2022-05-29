@@ -218,4 +218,15 @@
 		top: 45px;
 		cursor: pointer;
 	}
+/*!------- CONTACTS -------*/
+	.contacts{
+		padding: 43px 50px;
+		display: block;
+	}
+	.contacts-adress{
+		margin-bottom: 30px;
+	}
+	.contacts-form-block{
+		margin-bottom: 30px;
+	}
 }
